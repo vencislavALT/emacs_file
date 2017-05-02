@@ -45,6 +45,7 @@
 (load-theme 'leuven t)
 
 ;; Colour delimiters
+(require 'rainbow-delimiters)
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 
 ;; Autocomplete for python
